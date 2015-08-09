@@ -17,6 +17,7 @@ DEVICE_FOLDER := device/micromax/a116
 -include vendor/micromax/a116/BoardConfigVendor.mk
 
 # board
+TARGET_NO_RECOVERY := true
 TARGET_BOARD_PLATFORM := mt6589
 TARGET_ARCH := arm
 TARGET_CPU_ABI := armeabi-v7a
